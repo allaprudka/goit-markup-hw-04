@@ -1,0 +1,398 @@
+:root {
+  --primary-text-color: #212121;
+  --primary-background-color: #ffffff;
+  --accent-color: #2196f3;
+  --font-botton-text: "Roboto";
+  --font-text: "Roboto";
+  --font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: "Roroto", "Verdana", "Tahoma", sans-serif;
+  color: var(--primary-text-color);
+  background-color: var(--primary-background-color);
+}
+
+.container {
+  width: 1230px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.page-header {
+  border-bottom: 1px solid #ececec;
+}
+
+.logo-footer {
+  padding-top: 60px;
+}
+
+.site-nav {
+  display: flex;
+  margin-left: 93px;
+}
+
+.nav-item {
+  display: block;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.nav-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.nav-main {
+  display: flex;
+  align-items: center;
+  min-height: 80px;
+}
+
+.nav-contact-us-header {
+  display: flex;
+  margin-left: auto;
+}
+
+.nav-contact-us-item {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.nav-contact-us-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.filter-button {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+  margin-top: 94px;
+  margin-bottom: 50px;
+}
+
+.button-prtfl {
+  background-color: #f5f4fa;
+  cursor: pointer;
+  justify-content: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  padding: 6px 22px;
+  margin-right: 8px;
+  border: transparent;
+  border-radius: 4px;
+  box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.button-prtfl:last-child {
+  margin-right: 0;
+}
+
+.button-prtfl:hover,
+.button-prtfl:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+.link-header {
+  color: #212121;
+  font-size: 14px;
+}
+
+.link-header:hover,
+.link-header:focus {
+  color: var(--accent-color);
+}
+
+.button-buy {
+  display: inline-block;
+  min-width: 200px;
+  height: 50px;
+  color: #ffffff;
+  font: var(--font-botton-text);
+  background-color: var(--accent-color);
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  border-style: none;
+  padding: 10, 32;
+  margin-bottom: 0;
+}
+
+.contact-us-header {
+  color: #757575;
+  font-size: 14px;
+}
+
+.contact-us-header:hover,
+.contact-us-header:focus {
+  color: var(--accent-color);
+}
+
+.footer {
+  background-color: #2f303a;
+  min-height: 252px;
+}
+
+.address-footer {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 9px;
+}
+
+.contact-us-footer {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.contact-us-footer:hover,
+.contact-us-footer:focus {
+  color: var(--accent-color);
+}
+
+.value-p-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.value-list {
+  width: 270px;
+  margin-right: 30px;
+  margin-bottom: 94px;
+}
+
+.value-list:last-child {
+  margin-right: 0;
+}
+
+.value-list:last-child {
+  margin-right: 0;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.what-we-do {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 94px;
+}
+.what-we-do-item {
+  width: 370px;
+  margin-right: 30px;
+}
+
+.what-we-do-item:last-child {
+  margin-right: 0;
+}
+
+.our-team {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 94px;
+}
+
+.our-team-person {
+  font-family: var(--font-text);
+  font-style: var(--font-style);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.our-team-title {
+  font-family: var(--font-text);
+  font-style: var(--font-style);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.our-team-item {
+  margin-right: 30px;
+}
+
+.our-team-item:last-child {
+  margin-right: 0;
+}
+
+.products-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 94px;
+}
+
+.product-item {
+  width: 370px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.product-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.product-item:nth-last-child(-n + 3) {
+  margin-bottom: 0;
+}
+
+.prtfl-card-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+  margin-top: 20px;
+  margin-bottom: 4px;
+  padding-left: 24px;
+  text-align: left;
+}
+
+.prtfl-filtr-description {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1, 87;
+  letter-spacing: 0.03em;
+  color: #757575;
+  text-align: left;
+  padding-left: 24px;
+}
+
+.section-buy {
+  text-align: center;
+  background-color: #2f303a;
+  min-height: 600px;
+  padding-top: 200px;
+  margin-bottom: 94px;
+}
+
+.products-border {
+  border-bottom: 10px solid #eeeeee;
+}
+
+.main-title {
+  font-family: Roboto;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.effective-decision {
+  text-align: center;
+}
+
+.title-company-value {
+  margin-top: 0;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.text-paragraph {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.list-our-team {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+}
